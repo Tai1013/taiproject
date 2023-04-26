@@ -25,6 +25,7 @@ specifiers:
   postcss: ^8.4.23
   pug: ^3.0.2
   sass: ^1.62.0
+  simple-parallax-js: ^5.6.2
   standard-version: ^9.5.0
   tailwindcss: ^3.3.1
   tailwindcss-animated: ^1.0.0
@@ -41,6 +42,7 @@ dependencies:
   '@vueuse/core': 10.1.0_vue@3.2.47
   aos: 2.3.4
   firebase: 9.20.0
+  simple-parallax-js: 5.6.2
   vue: 3.2.47
   vue-i18n: 9.2.2_vue@3.2.47
   vue-router: 4.1.6_vue@3.2.47
@@ -4186,6 +4188,10 @@ packages:
   /signal-exit/3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
+
+  /simple-parallax-js/5.6.2:
+    resolution: {integrity: sha512-qJPZgg37BstDyvNqONU1YffiJ9P5n4B9IPl5h3kzZ2oEinTRwy1syxfEwTMLXYFHAFCRWXUcWD8yBnVcp8nxdA==}
+    dev: false
 
   /slash/3.0.0:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}

@@ -1,7 +1,7 @@
 export const MENU_LIST = [
   { title: 'about', name: 'home', hash: '#about' },
   { title: 'skill', name: 'home', hash: '#skill' },
-  { title: 'projects', name: 'home', hash: '#project' },
+  { title: 'projects', name: 'projects' },
   { title: 'contact', name: 'contact' }
 ]
 

@@ -8,7 +8,7 @@
           h1(class="font-semibold text-2xl") {{ $t('text.姓名') }}
           p(class="mt-1 font-medium text-sm") {{ $t('text.職業') }}
         div(class="flex justify-center items-center")
-          router-link(:to="{ hash: '#projects' }" class="no-hover")
+          router-link(:to="{ name: 'projects' }" class="no-hover")
             button(class="btn-block text-white bg-sky-500 border-sky-500") {{ $t('projects') }}
           router-link(:to="{ name: 'contact' }" class="no-hover")
             button(class="btn-block border-slate-600") {{ $t('contact') }}
@@ -30,12 +30,13 @@
         p(class="text-3xl md:text-5xl font-semibold animate-bounce text-sky-500") Hello!
         p(class="mt-3 text-sm md:text-lg" data-aos="fade-right") {{ $t('text.工作自介') }}
         p(class="mt-3 text-sm md:text-lg" data-aos="fade-right" data-aos-delay="200") {{ $t('text.攝影自介') }}
-  //- div(id="about" class="min-h-screen")
+  div(id="about" class="min-h-screen overflow-hidden")
 </template>
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import { useParallax } from '@vueuse/core'
+import ParallaxScrolling from '@/components/parallax-scrolling/index.vue'
 
 const selfCardStyle = computed(() => ({
   transition: '.3s ease-out all',
@@ -44,6 +45,17 @@ const selfCardStyle = computed(() => ({
 
 const selfCard = ref(null)
 const { tilt, roll } = useParallax(selfCard)
+
+// const images = document.getElementsByClassName('parallax')
+// nextTick(() => {
+//   new simpleParallax(images, {
+//     overflow: true
+//   })
+// })
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.code-bg {
+  background: url('@/assets/img/coding-bg.jpg') center center fixed;
+}
+</style>
