@@ -1,0 +1,18 @@
+{
+  "about": "about",
+  "skill": "skill",
+  "projects": "projects",
+  "contact": "contact",
+
+  "locale": {
+    "en": "English",
+    "zh-tw": "繁體中文"
+  },
+
+  "text": {
+    "姓名": "Tai Fu",
+    "職業": "Front-End Engineer / Photographer",
+    "工作自介": "My name is TaiFu Lin. I'm a Front-End Engineer, like to combine various technologies to develop websites. I can develop programs independently or as a team.",
+    "攝影自介": "I like to travel around, take pictures, and explore the beauty of the world. So I am also an amateur photographer."
+  }
+}
