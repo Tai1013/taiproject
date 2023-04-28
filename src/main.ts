@@ -1,4 +1,7 @@
-import './plugin/AOS'
+import '@/plugin/AOS'
+import '@/plugin/fortawesome'
+
+import '@splidejs/vue-splide/css'
 import 'tailwindcss/tailwind.css'
 import './assets/scss/main.scss'
 

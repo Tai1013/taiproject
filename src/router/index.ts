@@ -7,9 +7,10 @@ const router = createRouter({
   scrollBehavior (to, from, savedPosition) {
     if (to.hash) return {
       el: to.hash,
-      behavior: 'smooth'
+      behavior: 'smooth',
+      top: 48
     }
-    return { top: 0 }
+    return { top: 0, behavior: 'smooth' }
   }
 })
 

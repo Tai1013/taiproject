@@ -11,10 +11,13 @@
       leave-to-class="opacity-0"
     )
       component(:is="Component" :key="route.path")
+  footer-comp
 </template>
 
 <script setup lang="ts">
 import HeaderComp from './header.vue'
+import FooterComp from './footer.vue'
+
 </script>
 
 <style scoped lang="scss">

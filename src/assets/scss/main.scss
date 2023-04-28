@@ -5,7 +5,7 @@ body {
 }
 
 a {
-  @apply inline-block
+  @apply inline-flex
 }
 
 a, button, svg {
@@ -24,3 +24,6 @@ svg:not(.no-hover) {
   @apply mx-1.5 py-1 px-2 min-w-[100px] text-sm hover:animate-jump rounded-full border;
 }
 
+.simpleParallax {
+  @apply w-full h-full
+}

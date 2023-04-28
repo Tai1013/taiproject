@@ -34,7 +34,7 @@ export default defineConfig({
           if (id.includes('node_modules')) {
             const modules = id.toString().split('node_modules/.pnpm/')[1].split('/')[0].toString()
             if (modules.indexOf('firebase') > -1) return 'firebase'
-            // if (modules.indexOf('element-plus') > -1) return 'element-plus-' + modules.indexOf('element-plus')
+            if (modules.indexOf('fortawesome') > -1) return 'fortawesome'
             // if (modules.indexOf('chart.js') > -1) return 'chartjs'
             return 'vendor'
           }

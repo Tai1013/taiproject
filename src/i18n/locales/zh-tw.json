@@ -3,6 +3,12 @@
   "skill": "技能",
   "projects": "作品集",
   "contact": "聯絡方式",
+  "frontend": "前端",
+  "develop / framework": "開發 / 框架",
+  "version control": "版本控制",
+  "design": "排版設計",
+  "tools": "工具",
+  "server / cloud": "雲端服務 / 自動化部署",
 
   "locale": {
     "en": "English",

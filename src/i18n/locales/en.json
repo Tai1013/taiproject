@@ -3,6 +3,12 @@
   "skill": "skill",
   "projects": "projects",
   "contact": "contact",
+  "frontend": "front end",
+  "develop / framework": "develop / framework",
+  "version control": "version control",
+  "design": "design",
+  "tools": "tools",
+  "server / cloud": "server / cloud",
 
   "locale": {
     "en": "English",
