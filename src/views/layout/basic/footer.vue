@@ -21,6 +21,7 @@
     span ©️ Copyright
     span(class="mx-2") 2023
     router-link(:to="{ name: 'home' }") {{ logoName }}
+    span(class="mx-2") v{{ version }}
 </template>
 
 <script setup lang="ts">
@@ -28,6 +29,7 @@ import { MENU_LIST, CONTACT_LIST } from '@/configs/constant'
 import { FontawesomeIcon } from '@/components'
 
 const logoName = import.meta.env.VITE_APP_TITLE
+const version = import.meta.env.VITE_APP_VERSION
 </script>
 
 <style scoped lang="scss">
