@@ -1,0 +1,1 @@
+import{F as n}from"./fortawesome-f1482068.js";import{d as r,b as s,a as t,s as a,u as c}from"./vendor-b125fb2d.js";const u=r({__name:"index",props:{icon:{type:String,required:!0}},setup(e){return(o,i)=>(s(),t(c(n),a(o.$attrs,{icon:["fab",e.icon]}),null,16,["icon"]))}});export{u as _};

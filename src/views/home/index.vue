@@ -49,7 +49,4 @@ const { tilt, roll } = useParallax(selfCard)
 </script>
 
 <style scoped lang="scss">
-.code-bg {
-  background: url('@/assets/img/coding-bg.jpg') center center fixed;
-}
 </style>
