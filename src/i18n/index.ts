@@ -6,6 +6,9 @@ export const LOCALE_LIST = locales.map(locale => ({
   flag: pathFile(`@/i18n/flags/${locale}.png`),
   name: locale
 }))
+
+export const t = i18n.global.t
+
 export const useLanguage = () => {
   const language = ref<string>(localStorage.getItem('language') ?? import.meta.env.VITE_APP_LANGUAGE)
   i18n.global.locale.value = localStorage.getItem('language') ?? import.meta.env.VITE_APP_LANGUAGE

@@ -3,12 +3,20 @@
   "skill": "技能",
   "projects": "作品集",
   "contact": "聯絡方式",
-  "frontend": "前端",
+  "frontend / languages": "前端 / 語言",
   "develop / framework": "開發 / 框架",
-  "version control": "版本控制",
-  "design": "排版設計",
-  "tools": "工具",
+  "version control / server cloud": "版本控制 / 雲端部署",
+  "design / tools": "排版設計 / 工具",
   "server / cloud": "雲端服務 / 自動化部署",
+  "contact detail": "聯絡詳情",
+  "contact me": "請聯絡我",
+  "name": "稱呼",
+  "email": "電子郵件",
+  "Please provide a valid email address.": "請提供一個有效的電子郵件地址。",
+  "Required": "必填",
+  "content": "內容",
+  "submit": "送出",
+  "demo": "演示",
 
   "locale": {
     "en": "English",
@@ -20,5 +28,13 @@
     "職業": "前端工程師 / 業餘攝影師",
     "工作自介": "我是林台富，目前是一位前端工程師，平時喜歡與科技做結合來開發網站。 在專案上能夠獨自或團隊合作進行開發。",
     "攝影自介": "平常喜歡到處旅遊、攝影，探索世界的美好，所以我同時也是一位業餘攝影師。"
+  },
+
+  "project": {
+    "manage": "管理後台",
+    "video": "youtube網站",
+    "slot": "老虎機小遊戲",
+    "demoui": "demo版型",
+    "restaurant": "餐館網站設計"
   }
 }

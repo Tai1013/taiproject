@@ -3,12 +3,20 @@
   "skill": "skill",
   "projects": "projects",
   "contact": "contact",
-  "frontend": "front end",
+  "frontend / languages": "front end / languages",
   "develop / framework": "develop / framework",
-  "version control": "version control",
-  "design": "design",
-  "tools": "tools",
+  "version control / server cloud": "version control / server cloud",
+  "design / tools": "design / tools",
   "server / cloud": "server / cloud",
+  "contact detail": "contact detail",
+  "contact me": "contact me",
+  "name": "name",
+  "email": "email",
+  "Please provide a valid email address.": "Please provide a valid email address.",
+  "Required": "Required",
+  "content": "content",
+  "submit": "submit",
+  "demo": "demo",
 
   "locale": {
     "en": "English",
@@ -20,5 +28,13 @@
     "職業": "Front-End Engineer / Photographer",
     "工作自介": "My name is TaiFu Lin. I'm a Front-End Engineer, like to combine various technologies to develop websites. I can develop programs independently or as a team.",
     "攝影自介": "I like to travel around, take pictures, and explore the beauty of the world. So I am also an amateur photographer."
+  },
+
+  "project": {
+    "manage": "manage website",
+    "video": "youtube website",
+    "slot": "slot machine",
+    "demoui": "demo UI",
+    "restaurant": "restaurant UI"
   }
 }

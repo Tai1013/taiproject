@@ -7,7 +7,7 @@ export default {
     './src/**/*.{js,jsx,ts,tsx,vue}'
   ],
   safelist: [
-    { pattern: /(delay)-./ }
+    { pattern: /(delay|animate|router-link)-./ }
   ],
   theme: {
     extend: {},

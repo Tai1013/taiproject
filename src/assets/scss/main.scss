@@ -1,6 +1,6 @@
 @import './variables';
 
-body {
+#app {
   @apply select-none font-sans text-slate-600 bg-white dark:text-slate-400 dark:bg-slate-900;
 }
 
@@ -12,18 +12,26 @@ a, button, svg {
   @apply transition duration-300
 }
 
-a:not(.no-hover), button:not(.btn-block):not(.no-hover) {
-  @apply text-slate-600 hover:text-sky-500 dark:text-white dark:hover:text-sky-400;
+button {
+  @apply capitalize
+}
+
+a:not(.no-hover):not(.router-link-exact-active), button:not(.btn-block):not(.no-hover) {
+  @apply text-slate-600 hover:text-sky-500 dark:text-slate-400 dark:hover:text-sky-400;
 }
 
 svg:not(.no-hover) {
-  @apply fill-slate-600 hover:fill-sky-500 dark:fill-white dark:hover:fill-sky-400;
+  @apply fill-slate-600 hover:fill-sky-500 dark:fill-slate-400 dark:hover:fill-sky-400;
 }
 
 .btn-block {
-  @apply mx-1.5 py-1 px-2 min-w-[100px] text-sm hover:animate-jump rounded-full border;
+  @apply mx-1.5 py-1 px-2 min-w-[100px] text-sm hover:-translate-y-1 rounded-full border;
 }
 
 .simpleParallax {
   @apply w-full h-full
+}
+
+.router-link-exact-active {
+  @apply text-sky-500
 }

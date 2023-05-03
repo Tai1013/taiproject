@@ -6,7 +6,7 @@
         v-for="(menu, index) in MENU_LIST"
         :key="menu.title"
         :to="{ name: menu.name, hash: menu.hash }"
-        class="mr-2 text-xs md:text-sm"
+        class="mr-2 text-xs md:text-sm capitalize"
       ) {{ $t(menu.title) }}
     div(class="inline-flex")
       a(
